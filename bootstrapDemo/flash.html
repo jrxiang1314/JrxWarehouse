@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;padding:0;
+        }
+        #btn{
+            margin:0 auto;width:200px;height:100px;
+        }
+    </style>
+</head>
+<body>
+
+    <div style="position:absolute; left:0px; top:0px; width:800px; height:600px;    z-index:-1"> <!--1.设置FLASH为底层-->
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="800" height="600">
+            <param name="movie" value="media.swf">
+            <param name="quality" value="high">
+            <param name="wmode" value="transparent"> <!--2.必须把FLASH设置为透明，如果不设置的话，别的图片是不能够覆盖该flash的，也就不能够实现鼠标点击事件-->
+            <embed src="media.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="200" height="115"></embed>
+        </object> </div>
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script>
+
+</script>

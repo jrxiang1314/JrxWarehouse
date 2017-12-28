@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <style>
+        .table{
+            margin:0!important;
+        }
+        .table_header{
+            height:40px;border:1px solid #ddd;line-height: 40px;
+            background-color:#feddaa;
+        }
+        .table_header button{
+            background-color: #fea65f;
+        }
+        .table_h{
+            font-size:12px;font-weight:bolder;color:#000;
+        }
+        .table_n{
+            font-size:12px;color:#000;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row" style="box-sizing: border-box;margin-top:20px;">
+        <div class="table_header text-center">基本信息</div>
+        <table class="table table-bordered" style="margin-top:20px;">
+            <tbody>
+                <tr>
+                    <td class="col-xs-2 text-right table_h">订单号:</td>
+                    <td class="col-xs-4">FYSJ2017082212420714</td>
+                    <td class="col-xs-2 text-right table_h">订单状态:</td>
+                    <td class="col-xs-4">已确认，已付款，未发货</td>
+                </tr>
+                <tr>
+                    <td class="col-xs-2 text-right table_h">购货人:</td>
+                    <td class="col-xs-4">13931346543[显示购货人信息][发送/查看留言]</td>
+                    <td class="col-xs-2 text-right table_h">下单时间:</td>
+                    <td class="col-xs-4">2017-08-22 08:42:07</td>
+                </tr>
+                <tr>
+                    <td class="col-xs-2 text-right table_h">支付方式:</td>
+                    <td class="col-xs-4">支付宝<button>编辑</button>(备注:N/A)</td>
+                    <td class="col-xs-2 text-right table_h">付款时间:</td>
+                    <td class="col-xs-4">2017-08-22 08:42:07</td>
+                </tr>
+                <tr>
+                    <td class="col-xs-2 text-right table_h">配送方式:</td>
+                    <td class="col-xs-4">Bangalore</td>
+                    <td class="col-xs-2 text-right table_h">发货时间:</td>
+                    <td class="col-xs-4">Mumbai</td>
+                </tr>
+                <tr>
+                    <td class="col-xs-2 text-right table_h">发货单号:</td>
+                    <td class="col-xs-4"></td>
+                    <td class="col-xs-2 text-right table_h">订单来源:</td>
+                    <td class="col-xs-4">网站自营</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <div class="table_header text-center">
+            <span>发票信息</span>
+            <button type="button" class="btn btn-default">添加</button>
+        </div>
+    </div>
+    <div class="row text-center" style="height:70px;line-height:70px;">
+        <b>没有发票信息</b>
+    </div>
+    <div class="row">
+        <table class="table table-bordered">
+            <tbody>
+            <tr>
+                <td class="col-xs-2 text-right table_h">所选自提点:</td>
+                <td>
+                    店名:联系人:联系方式:地址:
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="row">
+        <div class="table_header text-center" style="border-top:none;border-bottom:none;">
+            <span>其他信息</span>
+            <button type="button" class="btn btn-default">编辑</button>
+        </div>
+        <table class="table table-bordered">
+            <tbody>
+            <tr>
+                <td class="col-xs-2 text-right table_h">客户给商家的留言:</td>
+                <td>
+
+                </td>
+            </tr>
+            <tr>
+                <td class="col-xs-2 text-right table_h">缺货处理:</td>
+                <td>
+                    等待所有商品备齐后再发
+                </td>
+            </tr>
+            <tr>
+                <td class="col-xs-2 text-right table_h">商家给客户的留言:</td>
+                <td>
+
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="row">
+        <div class="table_header text-center" style="border-top:none;border-bottom:none;">
+            <span>收货人信息</span>
+            <button type="button" class="btn btn-default">编辑</button>
+        </div>
+        <table class="table table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-xs-2 text-right table_h">收货人:</td>
+                    <td class="col-xs-4">张三</td>
+                    <td class="col-xs-2 text-right table_h">电子邮件:</td>
+                    <td class="col-xs-4">dadasda@163.com</td>
+                </tr>
+                <tr>
+                    <td class="col-xs-2 text-right table_h">地址:</td>
+                    <td class="col-xs-4">习三内画博物馆</td>
+                    <td class="col-xs-2 text-right table_h">邮编:</td>
+                    <td class="col-xs-4">100000</td>
+                </tr>
+                <tr>
+                    <td class="col-xs-2 text-right table_h">电话:</td>
+                    <td class="col-xs-4">035-25421645</td>
+                    <td class="col-xs-2 text-right table_h">手机:</td>
+                    <td class="col-xs-4">13545874254</td>
+                </tr>
+                <tr>
+                    <td class="col-xs-2 text-right table_h">最佳送货时间:</td>
+                    <td class="col-xs-2">仅工作日送货</td>
+                    <!--<td class="col-xs-2 text-right table_h"></td>-->
+                    <!--<td class="col-xs-4"></td>-->
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="row">
+        <div class="table_header text-center" style="border-top:none;border-bottom:none;">
+            <span>商品信息</span>
+            <button type="button" class="btn btn-default">编辑</button>
+        </div>
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th class="text-center">商品名称[品牌]</th>
+                <th class="text-center">售后</th>
+                <th class="text-center">货号</th>
+                <th class="text-center">货品号</th>
+                <th class="text-center">价格</th>
+                <th class="text-center">手机专享价格</th>
+                <th class="text-center">数量</th>
+                <th class="text-center">属性</th>
+                <th class="text-center">库存</th>
+                <th class="text-center">小计</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="text-right table_h">收货人:</td>
+                <td class="text-center">张三</td>
+                <td class="text-right table_h">电子邮件:</td>
+                <td class="text-center">吞日月</td>
+                <td class="text-right table_h">收货人:</td>
+                <td class="text-center">张三</td>
+                <td class="text-right table_h">电子邮件:</td>
+                <td class="text-center">的冯绍峰</td>
+                <td class="text-right table_h">收货人:</td>
+                <td class="text-center">张三</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="row">
+        <div class="table_header text-center" style="border-top:none;border-bottom:none;">
+            <span>费用信息</span>
+            <button type="button" class="btn btn-default">编辑</button>
+        </div>
+        <table class="table table-bordered">
+            <tbody>
+            <tr>
+                <td class=" table_n text-right">
+                    <span>商品总金额:<b>¥20.50</b></span>-<span>折扣:<b>¥0.00</b></span>+<span>配送费用:<b>¥20.50</b></span>+
+                    <span>支付费用:<b>¥20.50</b></span>
+                </td>
+            </tr>
+            <tr>
+                <td class=" table_n text-right">
+                    =<span>订单总金额:<b>¥20.50</b></span>
+                </td>
+            </tr>
+            <tr>
+                <td class=" table_n text-right">
+                    -<span>已付款金额:<b>¥20.50</b></span>-<span>使用余额:<b>¥20.50</b></span>-
+                     <span>使用红包:<b>¥20.50</b></span>
+                </td>
+            </tr>
+            <tr>
+                <td class=" table_n text-right">
+                    =<span>应付款金额:<b>¥20.50</b></span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="row">
+        <div class="table_header text-center" style="border-top:none;border-bottom:none;">
+            <span>操作信息</span>
+            <!--<button type="button" class="btn btn-default">编辑</button>-->
+        </div>
+        <table class="table table-bordered">
+            <tbody>
+            <tr>
+                <td class="col-xs-2 table_h text-right" style="vertical-align: middle !important;">操作备注:</td>
+                <td class="" style="vertical-align: middle !important;">
+                    <form role="form">
+                        <div class="form-group">
+                            <!--<label for="name">文本框</label>-->
+                            <textarea class="form-control" rows="2" style="resize:none;width:50%;"></textarea>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-xs-2 table_h text-right" style="vertical-align: middle !important;">当前可执行的操作:</td>
+                <td class="" style="vertical-align: middle !important;">
+                    <button type="button" class="btn btn-info">未发货</button>
+                    <button type="button" class="btn btn-info">已收货</button>
+                    <button type="button" class="btn btn-info">售后</button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="row">
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th class="text-center">操作者</th>
+                <th class="text-center">操作时间</th>
+                <th class="text-center">订单状态</th>
+                <th class="text-center">付款状态</th>
+                <th class="text-center">发货状态</th>
+                <th class="text-center">备注</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="text-center">admin1</td>
+                <td class="text-center">2017-12-16 15:35:50</td>
+                <td class="text-center">已确认</td>
+                <td class="text-center">已付款</td>
+                <td class="text-center">已发货</td>
+                <td class="text-center">张三</td>
+            </tr>
+            <tr>
+                <td class="text-center">admin2</td>
+                <td class="text-center">2017-12-16 15:35:50</td>
+                <td class="text-center">已确认</td>
+                <td class="text-center">已付款</td>
+                <td class="text-center">已发货</td>
+                <td class="text-center">张三</td>
+            </tr>
+            <tr>
+                <td class="text-center">admin3</td>
+                <td class="text-center">2017-12-16 15:35:50</td>
+                <td class="text-center">已确认</td>
+                <td class="text-center">已付款</td>
+                <td class="text-center">已发货</td>
+                <td class="text-center">张三</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="row" style="margin-bottom:100px;">
+        <div class="table_header text-center" style="border-top:none;border-bottom:none;">
+            <span>物流跟踪</span>
+        </div>
+        <table class="table table-bordered">
+            <tbody>
+            <tr>
+                <td class="text-right table_h">
+                    <ul id="myTab" class="nav nav-tabs">
+                        <li class="active"><a href="#home" data-toggle="tab">物流1</a>
+                        </li>
+                        <li><a href="#ios" data-toggle="tab">物流2</a></li>
+                    </ul>
+                    <div id="myTabContent" class="tab-content">
+                        <div class="tab-pane fade in active" id="home">
+                            <p class="text-left">物流一内容</p>
+                        </div>
+                        <div class="tab-pane fade" id="ios">
+                            <p class="text-left">物流二内容</p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="js/index.js"></script>
+</html>
+<script>
+    $(function () {
+        $('#myTab li:eq(1) a').tab('show');
+    });
+</script>

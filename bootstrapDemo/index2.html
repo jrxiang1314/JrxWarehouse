@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <ul id="myTab" class="nav nav-tabs">
+                <li class="active"><a href="#home1" data-toggle="tab">通用信息</a></li>
+                <li><a href="#home2" data-toggle="tab">详情描述</a></li>
+                <li><a href="#home3" data-toggle="tab">其他信息</a></li>
+                <li><a href="#home4" data-toggle="tab">商品属性</a></li>
+                <li><a href="#home5" data-toggle="tab">商品相册</a></li>
+                <li><a href="#home6" data-toggle="tab">关联商品</a></li>
+                <li><a href="#home7" data-toggle="tab">配件</a></li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade in active" id="home1">
+                    <p>通用信息</p>
+                </div>
+                <div class="tab-pane fade" id="home2">
+                    <p>详情描述</p>
+                </div>
+                <div class="tab-pane fade" id="home3">
+                    <p>其他信息</p>
+                </div>
+                <div class="tab-pane fade" id="home4">
+                    <p>商品属性</p>
+                </div>
+                <div class="tab-pane fade" id="home5">
+                    <p>商品相册</p>
+                </div>
+                <div class="tab-pane fade" id="home6">
+                    <p>关联商品</p>
+                </div>
+                <div class="tab-pane fade" id="home7">
+                    <p>配件</p>
+                </div>
+            </div>
+            <script>
+                $(function () {
+                    $('#myTab li:eq(1) a').tab('show');
+                });
+            </script>
+        </div>
+    </div>
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="js/index.js"></script>
+</html>
